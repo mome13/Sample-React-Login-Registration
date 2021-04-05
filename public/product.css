@@ -1,0 +1,76 @@
+.container {
+    max-width: 960px;
+}
+
+.main-product {
+    min-height: calc(100vh - 10vh - 12vh);
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-tt {
+    background-color: #d2d2d2;
+    height: 10vh;
+}
+
+.center-footer{
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header-links {
+    font-weight: 500;
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+    text-decoration: none;
+}
+
+.site-header-links:hover {
+    color: #000;
+}
+
+.showcase-content {
+    margin-top : 40%;
+}
+
+
+.site-showcase-btn {
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    transition: background-color .15s ease-in-out;
+}
+
+.site-showcase-btn:hover {
+    background-color: #ff8a50;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        flex: 1;
+    }
+}
