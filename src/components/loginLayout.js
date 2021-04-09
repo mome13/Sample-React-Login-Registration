@@ -21,7 +21,7 @@ const LoginLayout = () => {
                                     <input className='offset-1 button-signup w-25 rounded-pill' type="button" value='Sign up'/>
                                 </Link>
                             </div>
-                            <p style={{color:'#9e9e9e'}} className='w-50 mx-auto mt-4'>OR LOGIN WITH</p>
+                            <p style={{color:'#9e9e9e'}} className='w-50 mx-auto mt-4 user-select-none'>OR LOGIN WITH</p>
 
                             <div className='w-100'>
                                 <button className='rounded-circle shadow other-logins fw-bold'>F</button>
