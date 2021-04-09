@@ -2,50 +2,20 @@
     max-width: 960px;
 }
 
-.main-product {
-    min-height: calc(100vh - 10vh - 12vh);
+.back-body {
+    background-image: url('/backg.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.footer-link {
-    text-decoration: none;
-    color: black;
+
+.product-card {
+    width: 75%;
+    margin: 7% auto;
 }
 
-.footer-tt {
-    background-color: #d2d2d2;
-    height: 10vh;
-}
 
-.center-footer{
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-/*
- * Custom translucent site header
- */
-
-.site-header {
-    background-color: rgba(0, 0, 0, .85);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-}
-
-.site-header-links {
-    font-weight: 500;
-    color: #8e8e8e;
-    transition: color .15s ease-in-out;
-    text-decoration: none;
-}
-
-.site-header-links:hover {
-    color: #000;
-}
-
-.showcase-content {
-    margin-top : 40%;
-}
 
 
 .site-showcase-btn {
@@ -59,6 +29,53 @@
 .site-showcase-btn:hover {
     background-color: #ff8a50;
 }
+
+.input-border {
+    border: 1px solid #dee2e6;
+    padding: 8px 20px;
+}
+
+.input-border:focus, .input-border:active {
+    border: 1px solid #a384a5;
+}
+
+
+input:focus {
+    outline:none !important;
+}
+
+.button-signin {
+    padding: 5px 20px;
+    border: 1px solid #dee2e6;
+    color: white;
+    background-color: #7e57c2 ;
+}
+
+.button-signin:hover {
+    border: 1px solid #7e57c2;
+    background-color: #c7a4ff;
+    color: #65499c;
+}
+
+.button-signup {
+    padding: 5px 20px;
+    border: 1px solid #7e57c2;
+    color: #7e57c2;
+    background-color: white;
+}
+
+.button-signup:hover {
+    background-color: #c7a4ff;
+}
+
+.other-logins{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: white;
+    margin: 7px;
+}
+
 
 
 /*

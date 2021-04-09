@@ -3,7 +3,7 @@ import LoginLayout from "./components/loginLayout";
 
 function App() {
   return (
-    <div className="App">
+    <div className='main-product'>
       <LoginLayout />
     </div>
   );
