@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const LoginLayout = () => {
     return (
@@ -16,7 +17,9 @@ const LoginLayout = () => {
                             <a className='mt-4 mx-auto w-100 mb-4' href="#">Forgot Password?</a>
                             <div className='w-75 mx-auto'>
                                 <input className='button-signin w-25 rounded-pill' type="submit" value='Sign in'/>
-                                <input className='offset-1 button-signup w-25 rounded-pill' type="button" value='Sign up'/>
+                                <Link to="/signup">
+                                    <input className='offset-1 button-signup w-25 rounded-pill' type="button" value='Sign up'/>
+                                </Link>
                             </div>
                             <p style={{color:'#9e9e9e'}} className='w-50 mx-auto mt-4'>OR LOGIN WITH</p>
 
