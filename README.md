@@ -2,8 +2,6 @@
 
 <div>
 
-Sample app using react.
-
 <a href="https://github.com/facebook/react">
   <img src="https://img.shields.io/badge/react-17.0.0-brightgreen" alt="React">
 </a>
@@ -11,6 +9,11 @@ Sample app using react.
   <img src="https://img.shields.io/badge/bootstrap-5-brightgreen" alt="bootstrap">
 </a>
 </div>
+
+Sample app using react.
+
+![](https://github.com/mome13/Sample-React-Login-Registration/blob/main/docs/signup_demo.png)
+![](https://github.com/mome13/Sample-React-Login-Registration/blob/main/docs/signin_demo.png)
 
 ## 📦 Install
 
