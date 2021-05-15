@@ -53,6 +53,6 @@ Modern browsers and Internet Explorer 10+.
 
 We very much welcome your contribution, you can build together with us in the following ways 😃
 
-- Use Ant Design Pro in your daily work.
+- Use Bootstrap in your daily work.
 - Submit [GitHub issues](https://github.com/mome13/Sample-React-Login-Registration/issues) to report bugs or ask questions.
 - Propose [Pull Request](https://github.com/mome13/Sample-React-Login-Registration/pulls) to improve our code.
